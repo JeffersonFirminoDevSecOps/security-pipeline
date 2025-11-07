@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label agent any
+      label 'built-in'
       customWorkspace "${env.JOB_NAME}-ws2"
     }
   }
