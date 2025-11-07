@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'mestre'
+      label agent any
       customWorkspace "${env.JOB_NAME}-ws2"
     }
   }
