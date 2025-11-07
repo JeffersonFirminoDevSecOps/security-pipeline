@@ -1,4 +1,4 @@
-@Library('jenkins-lib@main') _
+@Library('jenkins-lib@master') _
 securityPipeline(
   label: '',                          // ou 'docker' / 'linux' se quiser amarrar
   customWorkspace: "${env.JOB_NAME}-ws2",
